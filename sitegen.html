@@ -1,0 +1,133 @@
+<html>
+<head>
+  <style>
+     .HeaderBar{
+	   text-align:center;
+	   color:blue;
+	   background-color:beige;
+	 }
+	 .logo{
+	 position:relative; left:80px; bottom:12px;
+	   font-size:100;
+		float:left;
+		width:100px;
+	 }
+	 .Title{
+		display: inline-block;
+		margin:0 auto;
+		width:200px;
+	   font-family:sans, arial;
+	   font-weight:bold;
+	   font-size:64;
+	 }
+	 .SubTitle{
+	   font-family:sans, arial;
+	   font-size:24;
+	 }
+	 .BreadCrumb{
+	   font-size:20;
+	 }
+	 .BreadCrumbItem{
+	    position:relative;
+		float:left;
+		padding:5px;
+	    padding-right:20px;
+		margin-bottom: 10;
+	    color:blue;
+		
+	 }
+	 .BreadCrumbArrow{ 
+	    position: absolute;
+		right:0;
+		top:4;
+		bottom:0;
+		z-index: -1;
+        overflow: hidden;
+	    color:red;
+	 }
+	 .BreadCrumbItem:hover{
+	    color:red;
+	    background-color:lightgreen;
+	 }
+	  .BreadCrumb input[type=text] {
+	  float: right;
+	  padding: 6px;
+	  border: solid;
+	  margin-right: 16px;
+	  font-size: 17px;
+	}
+	 .MainBody{
+	 
+	 }
+	 .Article{
+        min-height: 200px;
+	 }
+	 .ArticleTitle{
+	   font-family:sans, arial;
+	   font-weight:bold;
+	   font-size:24;
+	    
+	 }
+	 .ArticleContent{
+	   font-family:sans, arial;
+	   font-size:16;
+	    
+	 }
+	 .SideBar{
+	 
+	 }
+	 .FooterBar{
+	    color:blue;
+	    background-color:beige;
+		width:100%;
+		text-align:center;
+		}
+	 .leftFooter{
+	    padding-left:50px;
+		float:left;
+		width:100px;
+	    }
+	 .centerFooter{
+		display: inline-block;
+		margin:0 auto;
+		width:100px;
+	 }
+	 .rightFooter{
+	    padding-right:50px;
+		float:right;
+		width:100px;
+	  }
+  </style>
+
+</head>
+<body>
+	<div class=HeaderBar>
+	    <hr>
+		<div class=logo>Q</div>
+		<div class=Title> Title</div>
+		<div class=SubTitle>SubTitle</div>
+		<div style="clear:both"></div><hr>
+	</div>
+	<div class=BreadCrumb> <div class=BreadCrumbItem>BreadCrumb<div class=BreadCrumbArrow>&rArr;</div></div> <div class=BreadCrumbItem>BreadCrumb</div>
+	    <input  type="text" placeholder="Search.."></div>
+		<div style="clear:both"><hr> </div>
+	<div class=MainBody>
+	    <div class=Article>
+			<div class=ArticleTitle>ArticleTitle</div>
+			<div class=ArticleContent>ArticleContent</div>
+		</div>
+		<div class=SideBar>
+		
+		</div>
+	</div>
+	<div class=FooterBar>
+		<Hr>
+		<div class=leftFooter> left footer</div>
+		<div class=centerFooter>center footer</div>
+		<div class=rightFooter> left footer</div>
+		<Hr>
+	</div>
+	
+
+</body>
+</html>
